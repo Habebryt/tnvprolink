@@ -502,11 +502,11 @@ h6 {
   margin: 0 10px 40px 10px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  /* box-shadow: 0 10px 29px 0 #FFD700; */
+  box-shadow: 0 10px 15px 0 #002366;
   transition: all 0.3s ease-in-out;
 }
 
-#services .box:hover {
+#services .box:hover{
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   background-color: #002366;
@@ -519,12 +519,18 @@ h6 {
   right: -10px;
   top: 0;
   padding-top: 10px;
+  color: #002366;
 }
 
 #services .icon i {
-  font-size: 50px;
+  font-size: 25px;
   line-height: 1;
   transition: 0.5s;
+  color: #002366;
+}
+
+#services .icon i:hover {
+  color: #ffd700;
 }
 
 #services .title {
@@ -532,7 +538,6 @@ h6 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-  float: right;
 }
 
 #services .title a {
@@ -548,7 +553,6 @@ h6 {
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
-  float: right;
 }
 
 #why-us {
